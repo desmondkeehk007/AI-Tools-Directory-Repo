@@ -1,5 +1,7 @@
 # Complete AI Tools Directory (September 2026)
 
+![logo-transparent.png](res/logo-transparent.png)
+
 Consolidated registry of 112 generative AI tools, agentic development frameworks, coding environments, foundation models, and media synthesis platforms[cite: 1].
 
 | Metric | Count |
