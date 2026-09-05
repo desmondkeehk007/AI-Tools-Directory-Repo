@@ -1,18 +1,6 @@
-# Cache successful requests locally during development
-cache = true
-max_cache_age = "1d"
-
-# Request tuning to minimize anti-bot blocks
-timeout = 20
-max_retries = 3
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-
-# Accept 200 OK and 403 Forbidden (common for Cloudflare/WAF-protected AI landing pages)
-accept = [200, 204, 206, 301, 302, 307, 308, 403]
-
-# Exclude mailto tags and services requiring browser CAPTCHA/authentication
-exclude = [
-  "^mailto:",
-  "https://chat.deepseek.com",
-  "https://grok.com"
-]
+- name: Run Lychee
+  uses: lycheeverse/lychee-action@v2
+  with:
+    # Generates the report in the step summary, but exits with code 0 instead of failing
+    fail: false
+    args: "--config ./lychee.toml ./README.md"
