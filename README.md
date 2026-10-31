@@ -2,14 +2,15 @@
 
 ![logo-transparent.png](res/logo-transparent.png)
 
-Consolidated registry of 112 generative AI tools, agentic development frameworks, coding environments, foundation models, and media synthesis platforms.
+Consolidated registry of 113 generative AI tools, agentic development frameworks, coding environments, foundation models, and media synthesis platforms.
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Registered Tools** | 112 |
+| **Total Registered Tools** | 113 |
 | **Freemium / Paid Tier** | 79 |
 | **Open Source** | 15 |
 | **Free / Lab / Enterprise Service** | 18 |
+| **FSL Runtime / Variable Service Costs** | 1 |
 
 ---
 
@@ -129,6 +130,7 @@ Consolidated registry of 112 generative AI tools, agentic development frameworks
 | 110 | Udio | Udio | Audio & Music Generation | Text prompts, Custom lyrics, Audio seeds | Studio-Grade MP3/WAV, Stem Tracks | https://www.udio.com | Freemium with Paid (Daily credits + subscriptions) | High-fidelity music production model excelling in realistic vocal harmonization, complex song sections, and mastering. |
 | 111 | OpenClaw | Open Source | Agentic Platforms & Orchestration | Text, Shell Commands, Web APIs | Automated Workflows, Shell Scripts | https://github.com/openclaw/openclaw | Open Source (Community License) | Lightweight self-hosted personal automation agent executing local terminal scripts and web tasks securely. |
 | 112 | Hermes Agent | Nous Research | Agentic Platforms & Orchestration | Text, Messaging Protocols, Files | Automated Task Workflows, API Actions | https://github.com/NousResearch/Hermes-3 | Open Source (Apache 2.0) | Steerable open-weights agent model fine-tuned for tool execution, JSON mode, and long-horizon function calling. |
+| 113 | agent-qa | vostride | AI Software Testing | Natural-language test steps, YAML suites, app URLs | Test verdicts, screenshots, console/network evidence | https://vostride.com | FSL-1.1-ALv2; model/service costs vary | Web, Android and iOS testing through CLI/MCP, with memidex persistent memory and validated self-improvement. |
 
 ---
 
